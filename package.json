@@ -26,7 +26,7 @@
     },
     "husky": {
         "hooks": {
-            "pre-push": "php-cs-fixer fix ."
+            "pre-push": "vendor/bin/php-cs-fixer fix ."
         }
     }
 }
