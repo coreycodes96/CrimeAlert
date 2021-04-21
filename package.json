@@ -26,7 +26,7 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "php-cs-fixer fix . && git add ."
+            "pre-push": "php-cs-fixer fix ."
         }
     }
 }
